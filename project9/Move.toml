@@ -1,9 +1,0 @@
-[package]
-name = "Examples"
-version = "0.0.0"
-
-[addresses]
-MyModule = "0x3f549b92d4a7dde2e2000ed32057d0efe9d684da358323f4a0fb515b34a7f461"
-
-[dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "aptos-node-v1.2.0" }
